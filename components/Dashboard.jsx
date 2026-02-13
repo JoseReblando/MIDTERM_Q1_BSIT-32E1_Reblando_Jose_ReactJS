@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Dashboard.css";
 
 export default function Dashboard({ auth, onLogout, onFetchRecipes }) {
   const [recipes, setRecipes] = useState([]);
